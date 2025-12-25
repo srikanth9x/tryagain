@@ -7,10 +7,11 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
+    "redirects": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "https://arcet.web.app/",
+        "type": 301
       }
     ]
   }
